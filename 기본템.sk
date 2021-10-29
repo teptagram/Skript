@@ -1,0 +1,13 @@
+variables:
+	{기본템.%player%} = false
+	
+command /기본템:
+	trigger:
+		{기본템.%player%} is false:
+			give 1 stone sword of unbreaking 5 named "기본템" with lore "기본템" to player
+			give 1 stone pickaxe of unbreaking 5 named "기본템" with lore "기본템" to player
+			give 1 stone axe of unbreaking 5 named "기본템" with lore "기본템" to player
+			give 16 cooked beef of unbreaking 5 named "기본템" with lore "기본템" to player
+			set {기본템.%player%} to true
+		else:
+			message "당신은 이미 기본템을 받으셨습니다"

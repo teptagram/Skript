@@ -1,0 +1,7 @@
+every 1 seconds:
+	loop all players:
+		wipe loop-player's sidebar
+		set name of sidebar of loop-player to "반야생 서버"
+		set score "주제 : 할로윈" in sidear of loop-player to 3
+		set score "접속자 수 : %number of all players%" in sidear of loop-player to 2
+		set score "현재 시각 : %now%" in sidebar of loop-player to 1

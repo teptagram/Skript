@@ -1,0 +1,8 @@
+on first join:
+	set join message to ""
+	
+on join:
+	set join message to ""
+	
+on quit:
+	set quit message to ""
